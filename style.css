@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Shabnam;
+    src: local(shabnam) url(../fonts/Shabnam-FD.woff2) format(woff2);
+}
+
+@keyframes myAnamation{
+    from{
+
+    }
+
+    to{
+
+    }
+}
+
+/* Normalize Css */
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Shabnam;
+    margin: 0;
+}
+
+.container{
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper-child{
+display: flex;
+align-items: center;
+}
+.svg{
+color:#3498DB ;
+width: 20px;
+padding-left: .4rem;
+}
+.title{
+font-weight: bold;
+font-size: large;
+}
+.title-child{
+text-decoration: none;
+color: #2196e3;
+}
+
+
+
+
+/* content */
+
+/* content-1 */
+
+.content{
+display: flex;
+justify-content: space-between;
+margin-top: 2rem;
+
+}
+.content-1{
+background-color: rgb(255, 255, 255);
+width: 200px;
+height: auto;
+box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img{
+width: 100%;
+left: auto;
+right: auto;
+margin-top: 20px;
+}
+.tag{
+    text-decoration: none;
+}
+.paragraf{
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    line-height: 1rem;
+    text-align: justify;
+    color: #000000;
+    font-weight: normal;
+    height: 100px;
+}
+.section1{
+display: flex;
+margin-top: .5rem;
+align-items: center;
+}
+.percent{
+background-color: #0297f91e;
+width: 30px;
+height: auto;
+margin-right: 1rem;
+margin-left: 5px;
+padding: 2px 4px ;
+border-radius: 2px;
+display: inline-block;
+}
+.darsad{
+    color: #0296f9;
+    font-weight: 800px;
+
+}
+.discount{
+text-decoration: line-through;
+color: rgba(21, 20, 20, 0.434);
+}
+.content-child{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+padding-top: 8px ;
+}
+.content-child-1{
+margin-right: 1rem;
+}
+.paragraf-child-1{
+font-weight: bold;
+
+}
+.span{
+color:rgba(21, 20, 20, 0.558) ;
+font-weight: bold;
+font-size: 14px;
+
+}
+.content-child-2{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.icon{
+color: gold;
+width:20px;
+margin-left: .5rem;
+margin-right: 4px;
+}
+.paragraf-child-2{
+font-size: small;
+align-items: center;
+justify-content: center;
+}
